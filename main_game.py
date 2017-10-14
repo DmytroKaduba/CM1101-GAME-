@@ -20,8 +20,14 @@ class Game():
     def main_menu(self):
         #Display
         clear()
-        print(self.title.upper() + '\n')
-        print('Select:\n \n a.New Game \n b.Load Game \n c.Exit \n \n')
+        print(' \ \        / / | |                         ')
+        print('  \ \  /\  / /__| | ___ ___  _ __ ___   ___ ')
+        print("   \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _  ")
+        print('    \  /\  /  __/ | (_| (_) | | | | | |  __/')
+        print('     \/  \/ \___|_|\___\___/|_| |_| |_|\___|')
+        print('\n \n \n \n')
+        #print(self.title.upper() + '\n')
+        print('                     Select:\n\n                      a.New Game\n                      b.Load Game\n                      c.Exit\n\n')
 
         #Take input
         inp = input('->')
