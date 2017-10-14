@@ -7,7 +7,7 @@ def print_welcome():
     print('    \  /\  / ')
     print('     \/  \/ ')
 
-    sleep(0.5)
+    sleep(0.2)
     clear()
 
     print(' \ \        / /')
@@ -16,7 +16,7 @@ def print_welcome():
     print('    \  /\  /  __/')
     print('     \/  \/ \___|')
 
-    sleep(0.5)
+    sleep(0.2)
     clear()
 
     print(' \ \        / / | |                         ')
@@ -25,7 +25,7 @@ def print_welcome():
     print('    \  /\  /  __/ |')
     print('     \/  \/ \___|_|')
 
-    sleep(0.5)
+    sleep(0.2)
     clear()
 
     print(' \ \        / / | |                         ')
@@ -34,7 +34,7 @@ def print_welcome():
     print('    \  /\  /  __/ | (_')
     print('     \/  \/ \___|_|\___\|')
 
-    sleep(0.5)
+    sleep(0.2)
     clear()
 
     print(' \ \        / / | |                         ')
@@ -43,7 +43,7 @@ def print_welcome():
     print('    \  /\  /  __/ | (_| (_) |')
     print('     \/  \/ \___|_|\___\___/')
 
-    sleep(0.5)
+    sleep(0.2)
     clear()
 
     print(' \ \        / / | |                         ')
@@ -52,7 +52,7 @@ def print_welcome():
     print('    \  /\  /  __/ | (_| (_) | | | | | |')
     print('     \/  \/ \___|_|\___\___/|_| |_| |_|')
 
-    sleep(0.5)
+    sleep(0.2)
     clear()
 
     print(' \ \        / / | |                         ')
