@@ -1,4 +1,5 @@
 """ THIS IS THE MAIN GAME CLASS IT CONTAINS THE MAIN GAME LOOP AND LOGIC ASWELL AS MENU FUNCTIONS"""
+from animations import*
 from utilities import clear
 import time
 from player import Player
@@ -20,11 +21,7 @@ class Game():
     def main_menu(self):
         #Display
         clear()
-        print(' \ \        / / | |                         ')
-        print('  \ \  /\  / /__| | ___ ___  _ __ ___   ___ ')
-        print("   \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _  ")
-        print('    \  /\  /  __/ | (_| (_) | | | | | |  __/')
-        print('     \/  \/ \___|_|\___\___/|_| |_| |_|\___|')
+        print_welcome()
         print('\n \n \n \n')
         #print(self.title.upper() + '\n')
         print('                     Select:\n\n                      a.New Game\n                      b.Load Game\n                      c.Exit\n\n')
