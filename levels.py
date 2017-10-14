@@ -3,6 +3,7 @@
 from utilities import clear
 from map import *
 from animations import *
+from ASCII import draw_ascii
 class Level():
     def __init__(self, id, title):
         self.id = id
@@ -14,8 +15,9 @@ class Level():
     def start(self):
         clear()
         #print(self.intro_text)
-        print_level()
-        print('\n\n\n\n Press ENTER to continue...') 
+        #print_level()
+        draw_ascii('level1_ascii.txt')
+        print('\n\n\n\n Press ENTER to continue...')
         a = input()
         self.level_main()
 
