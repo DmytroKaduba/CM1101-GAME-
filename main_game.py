@@ -8,7 +8,7 @@ from levels import *
 
 class Game():
     #constructor called on creation
-    def __init__(self):
+    def __init__(self): 
         self.running = True
         self.title = 'The Game'
         self.game_levels = [level_reception]

@@ -11,9 +11,12 @@ def draw_ascii(path):
 def draw_anim_ascii(path):
 
     a_file = open(path, 'r')
-    length = len(a_file.readline())
+    line_len_list = []
+    for line in a_file:
+        line_len_list.append(len(line))
 
-    for i in range(0, length):
+    max_len = max(line_len_list)
+    for i in range(0, max_len):
         clear()
 
         ascii_file = open(path, 'r')
@@ -21,4 +24,4 @@ def draw_anim_ascii(path):
             new_line = line[:-1]
             print(new_line[0:i])
 
-        sleep(0.1)
+        sleep(0.005)
