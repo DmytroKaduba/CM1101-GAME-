@@ -1,3 +1,6 @@
+from utilities import clear
+from time import sleep
+
 def draw_ascii(path):
     ascii_file = open(path, 'r')
     for line in ascii_file:

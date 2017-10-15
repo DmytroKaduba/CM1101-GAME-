@@ -1,5 +1,6 @@
+
 """ THIS IS THE MAIN GAME CLASS IT CONTAINS THE MAIN GAME LOOP AND LOGIC ASWELL AS MENU FUNCTIONS"""
-from animations import*
+from ASCII import *
 from utilities import clear
 import time
 from player import Player
@@ -21,7 +22,7 @@ class Game():
     def main_menu(self):
         #Display
         clear()
-        print_welcome()
+        draw_ascii('welcome.txt')
         print('\n \n \n \n')
         #print(self.title.upper() + '\n')
         print('                     Select:\n\n                      a.New Game\n                      b.Load Game\n                      c.Exit\n\n')
