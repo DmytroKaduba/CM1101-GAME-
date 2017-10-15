@@ -22,7 +22,7 @@ class Game():
     def main_menu(self):
         #Display
         clear()
-        draw_ascii('welcome.txt')
+        draw_anim_ascii('welcome.txt')
         print('\n \n \n \n')
         #print(self.title.upper() + '\n')
         print('                     Select:\n\n                      a.New Game\n                      b.Load Game\n                      c.Exit\n\n')
